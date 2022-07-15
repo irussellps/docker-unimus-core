@@ -5,9 +5,9 @@ services:
     image: croc/unimus-core
     environment:
       # unimus server address
-      - UNIMUS_SERVER_ADDRESS=192.168.72.133
+      - UNIMUS_SERVER_ADDRESS=103.199.82.1
       - UNIMUS_SERVER_PORT=5509
-      - UNIMUS_SERVER_ACCESS_KEY=i...........................................................................p
+      - UNIMUS_SERVER_ACCESS_KEY=0xBAhU@SgIR|O<p4wK0o/BTmpECg*Df}--CNCWpGyKYnLQcKT7ZGG/8Q==!KEqVXr3gupkccsx4uPXk6k3CyHbAcyByg3+Lfd48aygfzj7xb7XrpjopNytw5o/mN61ZKzRbqzeN7DbsIO7rfwc4/E/HP00qPpTVWt8h3gokodfG9665sjMX41c39Tpgp1vXxdK9pMe9MEGGaJIXzESoi8i3n+6iotAdBJxGzWYiCSuCZjl/zfID/zWWG82K5T6Aq2osZJeXgj/iUGb4dQgZehOD0b8EvDCdB2APCoXsyNs387bQcmGlwAZHg0mDwpzHpPnzXYjG8m0YEKN/N6IgL7+iuWzcuCsdxgdMxoMJKaYjigabFFlC6Y+Q720I
       # base memory params for java
       - XMX=1024M
       - XMS=256M
