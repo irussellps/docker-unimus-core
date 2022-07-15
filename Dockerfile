@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:alpine
 
 ENV DOWNLOAD_URL https://download.unimus.net/unimus-core/-%20Latest/Unimus-Core.jar
 
@@ -21,3 +21,4 @@ COPY files/start.sh /opt/start.sh
 RUN chmod 755 /opt/start.sh
 #
 ENTRYPOINT /opt/start.sh
+
