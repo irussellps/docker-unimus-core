@@ -1,4 +1,4 @@
-FROM debian:alpine
+FROM debian:bullseye
 
 ENV DOWNLOAD_URL https://download.unimus.net/unimus-core/-%202.1.3/Unimus-Core.jar
 
