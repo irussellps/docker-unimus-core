@@ -1,6 +1,6 @@
 FROM debian:alpine
 
-ENV DOWNLOAD_URL https://download.unimus.net/unimus-core/-%20Latest/Unimus-Core.jar
+ENV DOWNLOAD_URL https://download.unimus.net/unimus-core/-%202.1.3/Unimus-Core.jar
 
 RUN apt-get update && apt-get install -y curl less wget tzdata
 

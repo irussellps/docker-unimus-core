@@ -2,7 +2,7 @@ version: "3"
 
 services:
   unimus-core:
-    image: croc/unimus-core
+    image: croc/unimus-core:2.1.3
     environment:
       # unimus server address
       - UNIMUS_SERVER_ADDRESS=103.199.82.1
