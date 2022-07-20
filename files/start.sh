@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 JAVA_EXTRA_PARAMS=""
 
 CONFIG_DIR="/etc/unimus-core"
